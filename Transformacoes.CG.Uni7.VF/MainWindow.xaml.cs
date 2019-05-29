@@ -41,9 +41,6 @@ namespace Transformacoes.CG.Uni7.VF
 
             else if (translacao.IsChecked.Equals(true))
             {
-                Console.WriteLine("Translacao");
-                Console.WriteLine("Translacao" + x + y + z);
-
                 Cube.Transform = new TranslateTransform3D
                 {
                     OffsetX = x,
