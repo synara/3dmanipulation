@@ -6,6 +6,10 @@
 ####    1. Clone ou realize o download do projeto.
 ####    2. O projeto foi desenvolvido na linguagem C#, portanto, é necessário a IDE Visual Studio 2017, com suporte a C#.
 ####    3. Após isso, basta executar o projeto, se for o caso de querer estudar e entender o código (debugar) ou compila-lo e, gerando, assim, o executável.
+####    4. Segue abaixo a interface do sistema: 
+![alt text](https://raw.githubusercontent.com/synara/3dmanipulation/master/interface-cubo.png)
+
+
 
 
 
