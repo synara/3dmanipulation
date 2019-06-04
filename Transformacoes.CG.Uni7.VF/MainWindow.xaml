@@ -11,9 +11,9 @@
             <ModelVisual3D>
                 <ModelVisual3D.Content>
                     <Model3DGroup>
-                        <AmbientLight Color="Gray"/>
-                        <DirectionalLight Color="Gray" Direction="1,-2,-3"/>
-                        <DirectionalLight Color="Gray" Direction="-1,2,3"/>
+                        <AmbientLight Color="Blue"/>
+                        <DirectionalLight Color="Gray" Direction="-1,1,-2"/>
+                        <DirectionalLight Color="Red" Direction="-1,2,3"/>
                         <GeometryModel3D x:Name="Cube" >
                             <GeometryModel3D.Geometry>
                                 <MeshGeometry3D Positions="
@@ -48,7 +48,7 @@
                 </ModelVisual3D.Content>
             </ModelVisual3D>
             <Viewport3D.Camera>
-                <PerspectiveCamera Position="2,4,6" LookDirection="-1,-2,-3" UpDirection="0,1,0" FieldOfView="60">
+                <PerspectiveCamera Position="2,4,6" LookDirection="-1,-2,-3" UpDirection="0,1,0" FieldOfView="90">
                 </PerspectiveCamera>
             </Viewport3D.Camera>
         </Viewport3D>
@@ -65,7 +65,7 @@
         <Button Content="Aplicar" HorizontalAlignment="Left" Margin="44,268,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
         <Button Content="Reiniciar" HorizontalAlignment="Left" Margin="377,268,0,0" VerticalAlignment="Top" Width="75" Click="RecriarCubo"/>
         <Label FontWeight="Bold" Content="Escolha uma transformação: " HorizontalAlignment="Left" Margin="347,14,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.723,1.365"/>
-            <RadioButton x:Name="rotacao" Content="Rotação" HorizontalAlignment="Left" Margin="377,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.468,-0.667"/>
+            <RadioButton x:Name="rotacao" IsChecked="True" Content="Rotação" HorizontalAlignment="Left" Margin="377,48,0,0" VerticalAlignment="Top" RenderTransformOrigin="-1.468,-0.667"/>
             <RadioButton x:Name="escala" Content="Escala" HorizontalAlignment="Left" Margin="377,92,0,0" VerticalAlignment="Top"/>
             <RadioButton x:Name="translacao"  Content="Translação" HorizontalAlignment="Left" Margin="377,72,0,0" VerticalAlignment="Top"/>
     </Grid>
